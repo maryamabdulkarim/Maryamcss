@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam's Portfolio</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="font-mono">
+    <!-- Navigation -->
+    <nav class="w-full fixed max-w-[100vw] z-[99] bg-slate-900 h-[70px] px-20 py-2 flex flex-row justify-start items-center gap-x-8">
+        <a href="#about-me" class="text-white font-bold">About Me</a>
+        <a href="#my-projects" class="text-white font-bold">My Projects</a>
+        <a href="#testimonials" class="text-white font-bold">Testimonials</a>
+        <a href="#contact-me" class="text-white font-bold">Contact Me</a>
+    </nav>
+
+    <!-- Header -->
+    <header class="container w-full max-w-[100vw] min-h-full h-screen p-20 bg-slate-800 flex flex-col justify-center items-center gap-4">
+        <h1 class="text-2xl text-center text-white font-bold">Maryam Abdulkarim</h1>
+        <h2 class="text-md text-center text-white font-semibold">
+            UIUX Designer
+        </h2>
+        <div class="flex flex-row gap-4">
+            <a href="https://github.com/maryamabdulkarim">
+                <ion-icon name="logo-github" class="bg-white p-2 rounded-full shadow-lg shadow-slate-700"></ion-icon>
+            </a>
+            <a href="https://twitter.com/MaryamBintKarim?t=65VUhU30HB5aTIPfF3YVDw&s=09">
+                <ion-icon name="logo-twitter" class="bg-white p-2 rounded-full shadow-lg shadow-slate-700"></ion-icon>
+            </a>
+            <a href="https://instagram.com/maryambintkarim?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                <ion-icon name="logo-instagram" class="bg-white p-2 rounded-full shadow-lg shadow-slate-700"></ion-icon>
+            </a>
+        </div>
+        <div class="h-[200px] w-[200px] rounded-full bg-slate-700">
+            <img src="images/maryam.jpg" alt="Maryam" class="w-full h-full rounded-full">
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <div id="about-me" class="container w-full max-w-[100vw] p-20 bg-slate-900 flex flex-col gap-8">
+        <h3 class="text-white text-2xl py-4 text-center font-bold">About Me</h3>
+        <p class="text-white">
+            Meet Maryam Abdulkarim, a thriving software developer and UIUX Designer with a passion for crafting captivating, highly functional, and user-friendly web Designs and Applications.
+
+            She is Proficient in HTML, CSS, JavaScript, Figma, Adobe Photoshop, and version control, she embraces challenges as opportunities for growth and problem-solving.
+
+            Maryam holds a bachelor's degree in Technology from the Federal University of Technology, Minna. She is a well-trained and certified Software Developer and UiUx specialist from TIIDELab and NECA.
+
+            Beyond her professional pursuits, Maryam finds joy in playing, eating, networking, and spending time with friends.
+        </p>
+    </div>
+
+    <!-- My Projects -->
+    <div id="my-projects" class="container w-full max-w-[100vw] p-20 bg-slate-800 flex flex-col gap-8">
+        <h3 class="text-white text-2xl py-4 text-center font-bold">My Projects</h3>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-4">
+            <a href="https://readlab-devtitans.netlify.app/" class="col-span-1 w-full pb-10 rounded-[20px] bg-slate-900">
+                <div class="h-[150px] bg-slate-700 w-full rounded-t-[20px]">
+                    <img src="images/project-1.jpeg" alt="ReadLab UI Design" class="h-full w-full rounded-t-[20px]">
+                </div>
+                <p class="title text-white px-10 py-4 font-bold">ReadLab UI Design</p>
+            </a>
+            <a href="https://www.figma.com/file/OPRFkY6sOwKlqXrgIzLNk3/my-practice?type=design&node-id=0-1&mode=design&t=0L28uILDGjFGGvLV-0" class="col-span-1 w-full pb-10 rounded-[20px] bg-slate-900">
+                <div class="h-[150px] bg-slate-700 w-full rounded-t-[20px]">
+                    <img src="images/project-2.jpeg" alt="Home Deco" class="h-full w-full rounded-t-[20px]">
+                </div>
+                <p class="title text-white px-10 py-4 font-bold">Home Decoration UI Design</p>
+            </a>
+            <a href="https://www.figma.com/proto/3rLyEpcqe6Cm3PVL4T55Y1/NECA%3A-Team-Figma-Web-%26-App-Project?page-id=0%3A1&type=design&node-id=498-140&viewport=-6564%2C-4557%2C0.67&scaling=scale-down" class="col-span-1 w-full pb-10 rounded-[20px] bg-slate-900">
+                <div class="h-[150px] bg-slate-700 w-full rounded-t-[20px]">
+                    <img src="images/project-3.jpeg" alt="NECA" class="h-full w-full rounded-t-[20px]">
+                </div>
+                <p class="title text-white px-10 py-4 font-bold">Aided Web App Design</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div id="testimonials" class="container w-full max-w-[100vw] p-20 bg-slate-900 flex flex-col gap-8">
+        <h3 class="text-white text-2xl py-4 text-center font-bold">Testimonials</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-4">
+            <div class="col-span-1 w-full p-10 rounded-[20px] bg-slate-800">
+                <p class="italic text-white">
+                    <span class="text-2xl font-extrabold">"</span>
+                    Throughout the cohort, I've witnessed her unwavering dedication, creativity, and growth, making her online portfolio a true testament to her commitment and drive.
+                </p>
+                <p class="font-bold text-white text-center pt-4">Babangida</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact-me" class="container w-full max-w-[100vw] p-20 bg-slate-800 flex flex-col gap-8">
+        <div>
+            <h3 class="text-white text-2xl pt-4 text-center font-bold">Contact Me</h3>  
+            <h4 class="text-sm text-white italic font-semibold text-center">...for UIUX & design jobs</h4>
+        </div>
+        <form action="mailto:maryamabdulkarim@gmail.com" class="lg:w-[60%] lg:mx-auto flex flex-col gap-4">
+            <div class="grid grid-cols-2 justify-center items-center gap-4">
+                <div class="col-span-1 rounded-[10px] py-2 bg-slate-900">
+                    <label for="fullname" class="text-gray-500 text-xs px-10 w-full">Full Name</label>
+                    <input id="fullname" type="text" placeholder="your full name" class="w-full h-[40px] bg-transparent rounded-lg px-10 text-white" />
+                </div>
+                <div class="col-span-1 rounded-[10px] py-2 bg-slate-900">
+                    <label for="email" class="text-gray-500 text-xs px-10 w-full">Email Address</label>
+                    <input id="email" type="text" placeholder="your email address" class="w-full h-[40px] bg-transparent rounded-lg px-10 text-white" />
+                </div>
+            </div>
+            <div class="col-span-1 rounded-[10px] py-2 bg-slate-900">
+                <label for="message" class="text-gray-500 text-xs px-10 w-full">Message</label>
+                <textarea cols="20" rows="10" id="message" type="text" placeholder="what can I do for you?" class="w-full min-h-[40px] bg-transparent rounded-lg px-10 py-2 text-white"></textarea>
+            </div>
+            <button type="submit" class="hover:bg-slate-950 lg:w-[60%] lg:mx-auto text-white font-bold h-[70px] px-10 py-2 rounded-[20px]">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-full max-w-[100vw] bg-slate-900 h-[70px] px-20 py-2 flex flex-row justify-start items-center gap-x-8">
+        <p class="text-white font-bold">&copy; 2023 by Maryam Abdulkarim</p>
+    </footer>
+</body>
+</html>
